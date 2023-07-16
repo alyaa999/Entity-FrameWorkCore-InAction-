@@ -223,3 +223,48 @@ The lazy loading will see that the property has been loaded and not load it
 again. Changing the first line of listing 2.9 to context.BookLazy.Include
 (book => book.Reviews).Single(), for example, would reduce the two database accesses to one access.
 
+
+* All the queries you’ve seen so far are ones that EF Core can convert to commands that
+can be run on the database server. But EF Core has a feature called client vs. server evaluation, which allows you to run code at the last stage of the query (that is, the final
+Select part in your query) that can’t be converted to database commands. EF Core
+runs these non-server-runnable commands after the data has come back from the
+database. 
+EF6 Client vs. server evaluation is a new feature in EF Core, and a useful
+one too.
+
+* All the queries you’ve seen so far are ones that EF Core can convert to commands that
+can be run on the database server. But EF Core has a feature called client vs. server evaluation, which allows you to run code at the last stage of the query (that is, the final
+Select part in your query) that can’t be converted to database commands. EF Core
+runs these non-server-runnable commands after the data has come back from the
+database. 
+EF6 Client vs. server evaluation is a new feature in EF Core, and a useful
+one too.
+
+
+  ![Alt text](image-13.png)
+
+  ![Alt text](image-14.png)
+
+
+  * The example in listing 2.10 is fairly simple, but you need to be careful how you use a
+property created by client vs. server evaluation. Using client vs. server evaluation on
+a property means that you cannot use that property in any LINQ command that
+would produce database commands, such as any commands that sort or filter that
+property. If you do, you will get an InvalidOperationException, with a message
+that contains the words could not be translated. In figure 2.9, for example, if you
+tried to sort or filter on the AuthorsString, you would get the could not be translated exception.
+
+
+* Example of complex query using select loading 
+and  make class like view model to hold all this data 
+
+  ![Alt text](image-15.png)
+
+
+ * !!!! 
+  ![Alt text](image-16.png)
+
+
+* ![Alt text](image-17.png)
+
+* ![Alt text](image-18.png)
