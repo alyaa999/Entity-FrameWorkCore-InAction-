@@ -1,0 +1,19 @@
+ 1-LINQ : Language indepented query
+ 2-LINQ use 40 + function as query
+ 3- ADO help you to make layer to map between database and classes 
+ 4- mapping meaning build model and map the another from the one that you build 
+    example : build database and map the object model or 
+            build object model and map the database 
+ 5- also you as developer write the two structure database and classes 
+ 6- EF core save your time and write the another structure 
+ 7- EF core making the  layer to connect  between database and classes 
+ 8- EF  using linq queries and convert them to sql commands , then execute them on database, 
+ then return data as objects to your application 
+ 9- Before EF you as develper build that maapping using ADO 
+ 10- EF core making mapping by convert classes to database called code first 
+ 11- or convert database to classes called reverse engineering .
+ 12- L2sql  make the same as EF , but microsoft choose EF .. NO one use L2sql now .
+ 13- using extension method to make 40 function 
+ 14- every collection implement IEunmable can  use all methods of linq 
+ 15- collection like list , dc  can use linq function as extension functions .
+ 
