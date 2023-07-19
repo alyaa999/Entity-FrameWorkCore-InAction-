@@ -1,0 +1,20 @@
+1- Linq queries  against any sequence 
+2-  sequence : class  implementeting IEnumable 
+3- sequence : LOCAL - REMOTE 
+4- sequence LOCAL :  L2O - L2ADO - L2XML 
+5- sequence REMOTE : L2SQL - L2EF
+6-  fluent syntax  method : Enumable.where(Lst , i=>i%2 ==0)
+7-  fluent syntax method : lst.where(i=>i%2 ==0 );
+8-  linq doesn't change in input 
+9-  the return from queries is datatype that implement the IEnumable 
+10-  Query Expression  \\ Query syntax like sql 
+10- example for query Expression : from i in lst where i%2==0  select i ;
+11- query expression is vaild for subset of 40 function in linq operators 
+12- cases that query expression is easy than fluent syntax is ( let , group , join , into)
+13- start with from and end with select or group .
+14- most of linq operators , deffered execution 
+15- means the result of the query is decorator  : referenece to sequence , query 
+16- each time you will iterate on your sequence ,, the query will executed .
+17- Imidiate execution is oppiste of deffered 
+18- casting and element operators are Imidiate
+19- Like ToList .. ToArray all are imidiate execution .
