@@ -1,0 +1,38 @@
+1- another signature from where -->  (bool ,int )
+2- so "int" is index  
+3- Indexed  where vaild only in fluent syntax
+4-  can't be written using  query  expression 
+5- example : where((p,i)=> p.unitprice == 0 && i <5);
+6- where i is referred to index ..
+7- select  is a transformation operator 
+8- select convert every element in input sequence to new input  of the out sequence
+9- select (new {id = product.id , product.productname}) return anoymous type 
+10- select(new product (){ })  another used 
+11- select function another signature like where .. you can use  index 
+12- in Query expression  we start with from and end with select 
+13- you can use "into" to break this rule 
+14- by pass your collection to variable and using another operator as you like then end with select 
+15-  from p in productlist 
+     select new {name = p.name , id = p.id , newprice = p.price *1.1}
+     into taxprd 
+     where taxprd.newprice > 10 ;
+
+16- orderby(i=> i.price ).thenby(i=>i.quality)
+17-first , last  function in linq is imidiate execution 
+18- firstdefault --> return null 
+19- first --> throw execption 
+20-select return empty if list is empty 
+21-order return empty if list is empty
+22- select return null if list referenece to null object 
+23- first , firstdefault , last , lastdefualt valid only to fluent  syntax 
+24- hyprid syntax means used query expression and fluent syntax  example :
+   from i in list 
+   where i.unitprice >0 
+   select new ({i.name  , i.newprice }).first  ;
+   ===> this is query is hyprid 
+25-  elementat / elementatdefault 
+26- single for exactly one element or throw exepection  if more than element match condition  or no one 
+27- single default doesn't throw expection if list is empty but throw it there more than one 
+28-  max , min --> icompareable as default or take key , condition ... return max price based on condition 
+29- sum ,average take condition only
+30-aggregate function that pass function to it 

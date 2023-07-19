@@ -16,5 +16,5 @@
 15- means the result of the query is decorator  : referenece to sequence , query 
 16- each time you will iterate on your sequence ,, the query will executed .
 17- Imidiate execution is oppiste of deffered 
-18- casting and element operators are Imidiate
+18- casting (tolist ) and some  element operators  ( which return single value  )are Imidiate
 19- Like ToList .. ToArray all are imidiate execution .
