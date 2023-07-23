@@ -74,3 +74,9 @@ D:\book\In Action\Entity-FrameWorkCore-InAction-\BookApp-API\myfirstapi\bin\Debu
 D:\book\In Action\Entity-FrameWorkCore-InAction-\BookApp-API\myfirstapi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 D:\book\In Action\Entity-FrameWorkCore-InAction-\BookApp-API\myfirstapi\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\book\In Action\Entity-FrameWorkCore-InAction-\BookApp-API\myfirstapi\bin\Debug\net7.0\System.CodeDom.dll
+D:\book\In Action\Entity-FrameWorkCore-InAction-\BookApp-API\myfirstapi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\book\In Action\Entity-FrameWorkCore-InAction-\BookApp-API\myfirstapi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\book\In Action\Entity-FrameWorkCore-InAction-\BookApp-API\myfirstapi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\book\In Action\Entity-FrameWorkCore-InAction-\BookApp-API\myfirstapi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\book\In Action\Entity-FrameWorkCore-InAction-\BookApp-API\myfirstapi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\book\In Action\Entity-FrameWorkCore-InAction-\BookApp-API\myfirstapi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
